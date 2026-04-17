@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavel Gomez | CyberChefPro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menú de Navegación -->
+    <nav>
+        <div class="nav-content">
+            <span class="logo">CCP.</span>
+            <div class="links">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre Mí</a>
+                <a href="#skills">Skills</a>
+                <a href="#experiencia">Experiencia</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Parallax de Portada -->
+    <header id="inicio" class="parallax-header">
+        <div class="hero-text">
+            <h1>PAVEL <span>GOMEZ</span></h1>
+            <p>> The CyberChefPro // SysAdmin & Developer</p>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- Contenedor Principal -->
+    <div class="container">
+        
+        <section id="sobre-mi">
+            <h2 class="section-title">Acerca de Mí</h2>
+            <div class="card">
+                <h3>Borra los prejuicios. Reescribe tu línea de comandos.</h3>
+                <p>Con 10 años de experiencia liderando cocinas y equipos bajo presión extrema en Estados Unidos, aprendí que la excelencia no es un accidente, es disciplina. Hoy, combino esa misma resiliencia y capacidad de resolución de problemas críticos con mi formación en Informática.</p>
+                <p>Construyo sistemas estables como preparo recetas: con precisión, pasión y sin margen para el error.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Terminal de Habilidades</h2>
+            <div class="tags">
+                <span class="tag">Linux / Server Admin</span>
+                <span class="tag">Python Automation</span>
+                <span class="tag">Frontend Development</span>
+                <span class="tag">Hacking Ético</span>
+                <span class="tag">Gestión de Crisis</span>
+                <span class="tag">Liderazgo Operativo</span>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2 class="section-title">Historial de Ejecución</h2>
+            
+            <div class="card">
+                <h3>Administrador de Windows Server & Soporte TI</h3>
+                <p class="meta-text">Ciudad de México | 2015 - 2016</p>
+                <p>Gestión de infraestructura de servidores Windows, administración de permisos y control de accesos de usuarios. Mantenimiento operativo de la red, asegurando la estabilidad y seguridad de los sistemas internos antes de mi transición internacional.</p>
+            </div>
+
+            <div class="card">
+                <h3>Manager General & Chef Ejecutivo</h3>
+                <p class="meta-text">Estados Unidos | 2016 - 2025</p>
+                <p>Comencé desde la base (Dishwasher, Prep, Parrillero) hasta alcanzar la Gerencia General (Full Manager). Dirigí operaciones integrales de restaurantes, optimizando inventarios y reduciendo mermas drásticamente. Implementé estrategias de marketing y promociones que incrementaron el flujo de clientes. Mi mayor logro: crear un entorno de trabajo basado en la empatía, entrenando equipos para operar con excelencia clínica y control total bajo la presión extrema de las horas pico, manteniendo la calma en medio del caos.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer & Redes Sociales -->
+    <footer class="cyber-footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://tiktok.com/@cyberchefpro" target="_blank" class="social-icon">TikTok</a>
+                <a href="https://instagram.com/cyberchefpro" target="_blank" class="social-icon">Instagram</a>
+                <a href="https://youtube.com/@cyberchefpro" target="_blank" class="social-icon">YouTube</a>
+                <a href="https://linkedin.com/in/pavelgomez" target="_blank" class="social-icon">LinkedIn</a>
+                <a href="mailto:elcyberchefpro@gmail.com" class="social-icon">Email</a>
+            </div>
+            <p class="footer-copy">> CyberChefPro © 2026. Todos los derechos reservados. Sistema Operativo por Pavel Gomez.</p>
+        </div>
+    </footer>
+
+    <!-- AI Chatbot UI (Auto-responder) -->
+    <div class="ai-chat-widget">
+        <button id="chat-toggle" class="chat-toggle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+        </button>
+        <div id="chat-window" class="chat-window hidden">
+            <div class="chat-header">
+                <span class="status-dot"></span> Tigre AI Assistant
+            </div>
+            <div id="chat-body" class="chat-body">
+                <div class="message ai">
+                    <p>Hola, soy la IA personal de Pavel. Él está actualmente trabajando en el código o en la cocina. ¿En qué te puedo ayudar?</p>
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Escribe un mensaje...">
+                <button id="chat-send">></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
