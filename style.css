@@ -263,6 +263,36 @@ nav {
     box-shadow: 0 5px 15px var(--accent-glow);
 }
 
+/* Blog / Bitácora */
+.blog-post {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fecha-blog {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85em;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.img-blog {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 20px 0;
+    opacity: 0.85;
+    transition: opacity 0.3s ease;
+}
+
+.blog-post:hover .img-blog {
+    opacity: 1;
+}
+
 /* AI Chatbot Widget */
 .ai-chat-widget {
     position: fixed;
